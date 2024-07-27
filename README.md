@@ -21,6 +21,7 @@ The demonstration code utilizes ATtiny3227 Power Down sleep mode to keep the ove
 Code is written in bare metal by directly access and control the registers of Port B (for segments) and Port C (for com1 - com4). The demostration code implemented a counter counting from 0 to 9999. Refer to my blog post for more detail explanation on how the code work.
 
 ## Demo Video
-Video demostration can be viewed from [YouTube](https://www.youtube.com/embed/4WMrjbVDOB0?si=xdW2W-66brknGFNu)
+Video demostration can be viewed from 
+![YouTube](https://www.youtube.com/embed/4WMrjbVDOB0)
 
 
