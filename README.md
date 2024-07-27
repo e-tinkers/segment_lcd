@@ -22,6 +22,6 @@ Code is written in bare metal by directly access and control the registers of Po
 
 ## Demo Video
 Video demostration can be viewed from 
-![YouTube](https://www.youtube.com/embed/4WMrjbVDOB0)
+[![youtube_video](images/youtube_thumbnail.png)](https://www.youtube.com/embed/4WMrjbVDOB0)
 
 
