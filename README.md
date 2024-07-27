@@ -1,7 +1,5 @@
 ## Segment LCD driver
-This program provide a driver and demostration code on how to drive a 4-digit segment LCD found in Aliexpress without a dedicated LCD driving IC/Controller. 
-
-!["4-digit segment LCD glass](images/4-digit_glass_segment_display.jpg)
+This program provide a driver and demostration code on how to drive a 4-digit segment LCD found in Aliexpress without a dedicated LCD driving IC/Controller.
 
 The "specification" from the Aliexpress indicated how the LCD should be connected and drive. 
  * The LCD has 4 COMs (COM1-COM4) and 8 multi-segment pins
@@ -21,7 +19,8 @@ The demonstration code utilizes ATtiny3227 Power Down sleep mode to keep the ove
 Code is written in bare metal by directly access and control the registers of Port B (for segments) and Port C (for com1 - com4). The demostration code implemented a counter counting from 0 to 9999. Refer to my blog post for more detail explanation on how the code work.
 
 ## Demo Video
-Video demostration can be viewed from 
+Here is a quick Youtube video demostration of the segment LCD driven by an ATtiny3227 running at 3V and 10MHz clock.
+
 [![youtube_video](images/youtube_thumbnail.png)](https://www.youtube.com/embed/4WMrjbVDOB0)
 
 
