@@ -163,7 +163,7 @@ void refreshSegments() {
 
 void main(void) {
 
-    static uint16_t countup_timer =  0;
+    static uint16_t interval_counter =  0;
 
     _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB, (CLKCTRL_PEN_bm | CLKCTRL_PDIV_2X_gc)); // running at 20/2 = 10MHz
     while (!(CLKCTRL.MCLKSTATUS & CLKCTRL_OSC20MS_bm)) {};
@@ -186,9 +186,9 @@ void main(void) {
 
             refreshSegments();
 
-            countup_timer++;                         // countup_timer increased in every 2ms
-            if (countup_timer >= COUNTUP_INTERVAL) { // increment the counter every 2ms * COUNTUP_INTERVAL
-                countup_timer = 0;
+            interval_counter++;                         // interval_counter increased in every 2ms
+            if (interval_counter >= COUNTUP_INTERVAL) { // increment the counter every 2ms * COUNTUP_INTERVAL
+                interval_counter = 0;
 
                 LCD_d_1++;                           // 4-digit ripple BCD counter for LCD digits counting from 0000 to 9999
                 if (LCD_d_1 >=10) {
