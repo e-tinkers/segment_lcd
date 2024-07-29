@@ -23,7 +23,6 @@ Here is a quick Youtube video demostration of the segment LCD driven by an ATtin
 
 [![youtube_video](images/youtube_thumbnail.png)](https://www.youtube.com/embed/4WMrjbVDOB0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4WMrjbVDOB0?si=7f08ZhbID1YF01A_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
