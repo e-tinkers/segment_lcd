@@ -16,7 +16,7 @@ The program uses an ATtiny3227 as the MCU for driving the segment LCD using GPIO
 The demonstration code utilizes ATtiny3227 Power Down sleep mode to keep the overall power consumption as low as possible. The battery consumption for both ATtiny3227 and LCD is at about 3.5mA when running at 10MHz clock *without deep sleep*. The battery consumption drops to approximated 585uA *with Power Down deep sleep* implemented. The power consumption could be further reduced by using higher resistor values for the voltage divider.
 
 ## Software
-Code is written in bare metal by directly access and control the registers of Port B (for segments) and Port C (for com1 - com4). The demostration code implemented a counter counting from 0 to 9999. Refer to my blog post for more detail explanation on how the code work.
+Code is written in bare metal by directly access and control the registers of Port B (for segments) and Port C (for com1 - com4). The demostration code implemented a counter counting from 0 to 9999. Refer to my [blog post](https://www.e-tinkers.com/2024/07/how-to-drive-a-segment-lcd-glass-with-gpio/) for more detail explanation on how the code work.
 
 ## Demo Video
 Here is a quick Youtube video demostration of the segment LCD driven by an ATtiny3227 running at 3V and 10MHz clock.
